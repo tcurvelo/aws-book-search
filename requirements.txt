@@ -1,4 +1,5 @@
 beautifulsoup4
 bottlenose
 lxml
-requests$=2.18.4
+requests==2.18.4
+EbookLib
