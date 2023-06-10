@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "ebook-library"
+version = "0.1.0"
+description = ""
+authors = ["Thiago Curvelo <tcurvelo@gmail.com>"]
+readme = "README.md"
+packages = [{include = "ebook_library"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+EbookLib = "^0.17.1"
+requests = "^2.28.1"
+pikepdf = "^6.2.1"
+
+
+[tool.poetry.group.dev.dependencies]
+ipdb = "*"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
